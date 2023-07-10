@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <h2>🔖 Layout</h2>
 
-Você pode visualizar o layout do projeto através desse <a href="https://www.figma.com/community/file/1187422022288947321/DevLinks-%E2%80%A2-Projeto-Discover">Link</a>.
+Você pode visualizar o layout do projeto através desse <a href="https://www.figma.com/community/file/1187422022288947321/DevLinks-%E2%80%A2-Projeto-Discover">link</a>.
 
 <br>
 
