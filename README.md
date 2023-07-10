@@ -1,6 +1,5 @@
 <br>
-
-<h2>💻 Projeto </h2>
+<h1>💻 Projeto </h1>
 
 <p align="center">
 <img alt="Cover" src="https://cdn.discordapp.com/attachments/1128080466075987990/1128080512741822504/Cover.png">
