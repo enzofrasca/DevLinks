@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cores Dark Mode*/
+
+:root {
+  --text-color: white;
+  --bg-color: black;
+  --stroke-color: rgba(255, 255, 255, 0.9);
+  --button-bg-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Cores Light Mode*/
+
+.light {
+  --text-color: black;
+  --bg-color: white;
+  --stroke-color: rgba(0, 0, 0, 0.9);
+  --button-bg-color: rgba(0, 0, 0, 0.05);
+}
+
+body {
+  background: var(--bg-color);
+}
+
+body * {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+}
+
+#container {
+  width: 360px;
+  height: 712px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 112px;
+  transition: all ease-in-out 0.5s;
+}
+
+#profile img:hover {
+  transform: rotate3d(0, 1, 0, 180deg);
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+/* Switch Dark-Light*/
+
+#switch {
+  position: relative;
+  width: 48px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+#switch button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--text-color);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+  transition: linear 0.5s;
+}
+
+#switch span {
+  display: block;
+  width: 48px;
+  height: 24px;
+  background: var(--button-bg-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 9999px;
+}
+
+.light #switch button {
+  right: 0;
+  left: initial;
+  transition: linear 0.5s;
+}
+
+/* Lista de Botões*/
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+ul li a {
+  background: var(--button-bg-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+ul li a:hover {
+  background: var(--text-color);
+  font-weight: bold;
+  color: var(--bg-color);
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 28px;
+  transition: all ease-in-out 0.2s;
+  gap: 12px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: all ease-in-out 0.2s;
+  border-radius: 50%;
+}
+
+#social-links a:hover {
+  background: var(--text-color);
+}
+
+#social-links a:hover ion-icon {
+  transition: all ease-in-out 0.2s;
+  color: var(--bg-color);
+}
+
+footer {
+  padding: 24px 0;
+  text-align: center;
+}
