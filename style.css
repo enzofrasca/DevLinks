@@ -51,8 +51,9 @@ body * {
   transition: all ease-in-out 0.5s;
 }
 
-#profile img:hover {
+.light #profile img {
   transform: rotate3d(0, 1, 0, 180deg);
+  transition: all ease-in-out 0.5s;
 }
 
 #profile p {
@@ -81,7 +82,7 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
-  transition: linear 0.5s;
+  animation: slide-out 0.4s forwards;
 }
 
 #switch span {
@@ -94,9 +95,7 @@ body * {
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
-  transition: linear 0.5s;
+  animation: slide-in 0.4s forwards;
 }
 
 /* Lista de Botões*/
@@ -157,4 +156,22 @@ ul li a:hover {
 footer {
   padding: 24px 0;
   text-align: center;
+}
+
+@keyframes slide-in {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0%;
+  }
 }
