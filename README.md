@@ -1,7 +1,7 @@
 <h2>💻 Projeto </h2>
 
 <p align="center">
-<img alt="Cover" src=".github/cover.png](https://cdn.discordapp.com/attachments/1128080466075987990/1128080512741822504/Cover.png)">
+<img alt="Cover" src="(https://cdn.discordapp.com/attachments/1128080466075987990/1128080512741822504/Cover.png)">
 </p>
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
