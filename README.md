@@ -4,8 +4,7 @@
 <img alt="Cover" src="https://cdn.discordapp.com/attachments/1128080466075987990/1128080512741822504/Cover.png">
 </p>
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
-
+O DevLinks é um agregador de links para usar como cartão de visitas online. Acesse <a href="https://enzofrasca.github.io/DevLinks/#">aqui</a>.
 <br>
 
 <h2>🚀 Tecnologias</h2>
